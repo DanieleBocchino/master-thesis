@@ -1,0 +1,13 @@
+- build_face_maps.sh
+- train simulation 
+- Test_simulation_without_GIF.py
+- Test_simulation.py
+- MM_stats.py
+
+
+
+## MODIFICHE AI PACKAGE
+
+- modificare il file : .venv\Lib\site-packages\contextualbandits\online.py
+
+inserire nella classe LogisticTS(_BasePolicyWithExploit) il parametro alpha=0. (riga 1196) e associarlo (riga 1206).

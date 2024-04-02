@@ -1,0 +1,22 @@
+
+speaker_detect/__pycache__/
+speaker_detect/output
+
+__pycache__/
+*.pyc
+*.oldgif
+venv/
+.venv/
+ThompsonSampling/output
+test/
+outputs
+.old_git/
+
+data/*
+!data/scores
+
+output_test/
+RESULT/
+OLD_RESULT/
+
+ThompsonSampling/models copy/

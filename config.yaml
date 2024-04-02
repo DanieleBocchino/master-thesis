@@ -1,0 +1,71 @@
+FULL SIMULATION:
+  video directory: data/find_dataset/Our_database/raw_videos/
+  scores directory : data/scores/
+STATS:
+  classify: true
+  compute_MM: true
+  compute_RQA: true
+  compute_SM: true
+  compute_scores: true
+  display: false
+  dist_from_screen: 0.57
+  duration_distribution: true
+  exponential_Q: true
+  fs: 250.0
+  full simulation: true
+  gaze_sample_rate: 240.0
+  generated_dir: data/gen_gaze/
+  launch exp: false
+  outputs_dir: outputs/test/
+  real_dir: data/find_dataset/Our_database/fix_and_dur_data/
+  result dir: RESULT/003/
+  saccade_analysis: true
+  save_imgs: false
+  screen_res_x: 1024
+  screen_res_y: 768
+  screen_size_x: 0.4
+  screen_size_y: 0.3
+  video_dir: /data/find_dataset/Our_database/raw_videos/
+TEST CONFIG:
+  Bayesian Optimization: false
+  bayesian optimization: true
+  d_rate: 3
+  dynmapDir: data/find_dataset/dynamic/
+  end_gif: 300
+  experiment: _10_obs_phi_2.9069977178955195_k_0.834044009405148_log_24.40648986884316
+  facemapDir: data/find_dataset/merged_maps/
+  fs: 250.0
+  gazeDir: data/find_dataset/Our_database/fix_data_NEW/
+  gazeGen: data/gen_gaze/
+  kappa: 0.834044009405148
+  logistic: 24.40648986884316
+  n_samples: 6
+  observers: 10
+  outputs_dir: outputs/test/
+  phi: 2.9069977178955195
+  start_gif: 0
+  temperature softmax: 1
+  vidDir: data/find_dataset/Our_database/raw_videos/
+TRAIN:
+  alpha: 5.0
+  alpha logisticTS: 0.0
+  curr_vid_name: 003.mp4
+  dynmapDir: data/find_dataset/dynamic/
+  facemapDir: data/find_dataset/merged_maps/
+  gazeDir: data/find_dataset/Our_database/fix_data_NEW/
+  lambda_: 5
+  mat_file_path: data/fix_data/012.mat
+  models_dir: ThompsonSampling/models/003/
+  n_dim: 3
+  n_simulation: 25
+  num_observer: 0
+  outputs_dir: outputs/train/
+  prev_data: None
+  racers:
+  - Speaker
+  - Non Speaker
+  - CB
+  - STS
+  save_GIF: true
+  train_observers: 13
+  vidDir: data/find_dataset/Our_database/raw_videos/
